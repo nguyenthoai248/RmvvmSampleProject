@@ -9,7 +9,7 @@ plugins {
 android {
     compileSdkVersion(Versions.compileSdkVersion)
     defaultConfig {
-        applicationId = "com.gitlab.sample.cleanarchitecture"
+        applicationId = "com.api.sample.app"
         minSdkVersion(Versions.minSdkVersion)
         targetSdkVersion(Versions.targetSdkVersion)
         versionCode = Versions.versionCode
@@ -71,4 +71,5 @@ dependencies {
     implementation(project(":album-details-presentation"))
     implementation(project(":album-details-data"))
     implementation(project(":album-details-domain"))
+    implementation("com.facebook.android:facebook-android-sdk:8.1.0")
 }

@@ -1,4 +1,4 @@
-package com.gitlab.sample.cleanarchitecture
+package com.api.sample.app
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.gitlab.sample.cleanarchitecture
+package com.api.sample.app
 
 
 import android.content.Context
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = ApplicationProvider.getApplicationContext<Context>()
-        assertEquals("com.gitlab.sample.cleanarchitecture", appContext.packageName)
+        assertEquals("com.api.sample.app", appContext.packageName)
     }
 }
